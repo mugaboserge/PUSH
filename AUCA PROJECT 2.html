@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - School Web</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo2.png" alt="AUCA">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="AUCA PROJECT.html">HOME</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#map">MAP</a></li>
+                <li><a href="#video">VIDEO</a></li>
+                <li><a href="https://online.auca.ac.rw/login/index.php">STUDENT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section" id="contact">
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Get in Touch</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+                    
+                    <button type="submit">advise to us </button>
+                </form>
+            </div>
+            <div class="contact-details">
+                <h2>Our Location</h2>
+                <p>Adventist University of Central Africa</p>
+                <p>Kigali, Rwanda</p>
+                <p>Phone: +250 788 882 953</p>
+                <p>Email: <a href="mailto:info@auca.ac.rw">info@auca.ac.rw</a></p>
+                <h2>Follow Us</h2>
+                <div class="social-media">
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section" id="map">
+        <h2>Our Location on the Map</h2>
+        <!-- Embedded Google Map -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.9644492832753!2d30.1213036!3d-1.9448955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca9fa4dd8fa7b%3A0xf1c04c894d8bbcee!2sAdventist%20University%20of%20Central%20Africa!5e0!3m2!1sen!2srw!4v1639584287337!5m2!1sen!2srw" 
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen 
+            loading="lazy">
+        </iframe>
+    </section>
+    
+    
+
+    <section class="video-section" id="video">
+        <h2>Watch Us</h2>
+        <video width="400" controls>
+            <source src="video2.mkv" type="video/mp4">
+            <source src="intro-video.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        <p>beleive in yourself and your will be unstoppeble</p>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+        </div>
+        <p>Copyright © Kigali, Rwanda 2024</p>
+    </footer>
+</body>
+</html>
